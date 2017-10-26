@@ -1,0 +1,252 @@
+@base:375/15rem;
+.MT0{
+  margin-top:0 !important;
+}
+.MT10{
+  margin-top:10/@base !important;
+}
+.MT44{
+  margin-top:44/@base !important;
+}
+.ML10{
+  margin-left:10/@base;
+}
+.ML20{
+  margin-left:20/@base;
+}
+.MR10{
+  margin-right:10/@base;
+}
+.MR15{
+  margin-right:15/@base !important;
+}
+.LH39{
+  line-height: 39/@base !important;
+}
+.W115{
+  width:115/@base;
+}
+.W130{
+  width:130/@base;
+}
+.toHere-bg{
+  position: relative;
+  .toHere{
+    width:60/@base;
+    height:60/@base;
+    position: absolute;
+    top:-30/@base;
+    right: 15/@base;
+    z-index: 9999999;
+    img{
+      width:60/@base;
+      height:60/@base;
+    }
+  }
+}
+//解决边框问题
+.allBorder-bottom(@w:1px,@color:#999){
+
+    border-bottom: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+      border-bottom: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+      border-bottom: @w/3 solid @color;
+
+  }
+}
+.allBorder-left(@w:1px,@color:#999){
+
+  border-left: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border-left: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border-left: @w/3 solid @color;
+
+  }
+}
+.allBorder(@w:1px,@color:#999){
+
+  border: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border: @w/3 solid @color;
+
+  }
+}
+.allBorder-top(@w:1px,@color:#999){
+
+  border-top: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border-top: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border-top: @w/3 solid @color;
+
+  }
+}
+.allBorder-right(@w:1px,@color:#999){
+
+  border-right: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border-right: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border-right: @w/3 solid @color;
+
+  }
+}
+//居中
+.mid(@tran:translate(-50%,-50%)){
+  transform: @tran;
+}
+.mu-bottom-nav{
+  height:49/@base;
+}
+div.mu-paper span.mu-bottom-item-text{
+  font-size: 12/@base !important;
+}
+ul.house-list li,.house-list-li{
+  padding: 15/@base 10/@base 15/@base 15/@base !important;
+  h3{
+    line-height: 24/@base;
+  }
+  p.region{
+    width:160/@base;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  p.region,p.interiorfloorspace,p.builtIn,p.time{
+    color: #7F7F7F !important;
+    line-height: 20/@base;
+    font-size: 12/@base;
+    letter-spacing: -0.45px;
+  }
+  div.money-time{
+    top:17/@base;
+    text-align: right;
+    .money{
+      letter-spacing: -0.45px;
+    }
+  }
+  .top-img{
+    div.createdDay-bg{
+      position: absolute;
+      top: 5/@base;
+      left: -5/@base;
+      width: 72/@base;
+      height: 26/@base;
+      line-height: 18/@base;
+      font-size: 12/@base;
+      color: #FFFFFF;
+      text-align: center;
+      background-image: url('../../assets/img/createdDay-bg.png');
+      background-size:100% 100%;
+    }
+  }
+}
+div.mu-appbar{
+  background: #FAFAFA !important;
+  div.right i.icon{
+    font-size: 27/@base;
+  }
+}
+.choice {
+  border-bottom: 1px solid #F4F4F4;
+  i.icon{
+    font-size: 12/@base;
+    margin-left: -8/@base !important;
+    color: #c2c2c2;
+  }
+  button{
+    background: #FAFAFA !important;
+  }
+}
+.money-time{
+  color:#F14114 !important;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.FS12{
+  font-size: 12/@base !important;
+}
+.FS13{
+  font-size: 13/@base !important;
+}
+.icon-icon_shoucangfangyuan{
+  color: #4A4A4A !important;
+}
+i.icon.icon-icon_bukejian,i.icon.icon-icon_kejian{
+  font-size: 17/@base !important;
+  color:#EBEBEB !important;
+  float:right;
+  margin-right:10/@base;
+}
+
+.clearBtn{
+  width: 16/@base !important;
+  height: 16/@base !important;
+  display: inline-block;
+}
+img.icon_kejian,img.icon_bukejian{
+  width: 16/@base;
+  height: 16/@base;
+}
+
+div.mu-toast{
+  max-width: 80%!important;
+  min-width: 80%!important;
+  left: 10% !important;
+  white-space: normal !important;
+  padding: 10px 10px !important;
+  bottom: 50%!important;
+  height: initial !important;
+  line-height: 28px !important;
+  text-align: center;
+}
+
+#app{
+  -webkit-overflow-scrolling : touch;
+}
+
+.fixed{
+  position: fixed !important;
+}

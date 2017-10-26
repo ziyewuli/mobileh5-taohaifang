@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_消息提醒</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="-3.27758789%" y2="71.4208984%" id="linearGradient-1">
+            <stop stop-color="#FF7A73" offset="0%"></stop>
+            <stop stop-color="#EC1010" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="个人中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心-无绑定信息" transform="translate(-330.000000, -36.000000)" fill="url(#linearGradient-1)">
+            <g id="头像">
+                <g id="消息" transform="translate(330.000000, 36.000000)">
+                    <g id="icon-消息" transform="translate(6.000000, 4.000000)">
+                        <path d="M9.6,1.94060125 C12.4679352,2.74245245 14.675046,5.33419384 14.84,8.42105263 L15.155,14.3157895 L15.162298,14.3157895 C15.624948,14.3157895 16,14.6895704 16,15.1578947 C16,15.6229766 15.6202734,16 15.162298,16 L0.837702036,16 C0.375051977,16 0,15.6262191 0,15.1578947 C0,14.6928128 0.379726648,14.3157895 0.837702036,14.3157895 L0.845,14.3157895 L1.16,8.42105263 C1.32453412,5.34205162 3.53296358,2.7454894 6.4,1.94147135 L6.4,1.59868421 C6.4,0.715755301 7.11018372,0 8,0 C8.8836556,0 9.6,0.723918915 9.6,1.59868421 L9.6,1.94060125 Z M5,17 L11,17 C11,18.6568542 9.65685425,20 8,20 C6.34314575,20 5,18.6568542 5,17 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
